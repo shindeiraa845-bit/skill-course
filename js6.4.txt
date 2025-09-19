@@ -1,0 +1,7 @@
+let age=prompt("Enter age=");
+if (age>=18)
+{
+console.log("ELIGEBLE TO VOTE");
+}
+else
+console.log("NOT ELIGEBLE TO VOTE");

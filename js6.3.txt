@@ -1,0 +1,21 @@
+let a= prompt("enter first number =");
+let b=prompt("enter second number =");
+let action= prompt("what do u want to perform  =");
+if(action=="+")
+{
+console.log(a+b);
+}
+else if(action=="-")
+{
+console.log(a-b);
+}
+else if (action=="*")
+{
+console.log(a*b);
+}
+else if(action=="/")
+{
+console.log(a/b);
+}
+else
+console.log(a%b);
