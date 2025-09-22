@@ -1,0 +1,17 @@
+let marks=prompt("Enter marks=");
+if (marks>=90)
+{
+console.log("GRADE A");
+}
+ else if(marks>=75&& marks<=89)
+{
+console.log("Grade B");
+}
+ else if(marks>=50&& marks<=74)
+{
+console.log("Grade C");
+}
+else
+{
+console.log("FAIL");
+}
